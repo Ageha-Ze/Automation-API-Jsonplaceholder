@@ -1,0 +1,1 @@
+pytest==8.3.2pytest-allure-adaptor==1.7.13requests==2.32.3mss==9.0.1python-dotenv==1.0.1
