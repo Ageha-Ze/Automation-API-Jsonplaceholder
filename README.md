@@ -9,7 +9,10 @@ Contoh API yang diuji: [https://jsonplaceholder.typicode.com](https://jsonplaceh
 ```
 📦 API SERIES
 ├── tests/                # Folder untuk test cases
-│   ├── test_users.py     # Contoh pengujian endpoint /users
+│   ├── __init__
+│   ├── test_get.py       # Contoh pengujian endpoint /get
+│   ├── test_put.py       # Contoh pengujian endpoint /put
+│   ├── test_delete.py    # Contoh pengujian endpoint /delete
 │   └── test_posts.py     # Contoh pengujian endpoint /posts
 ├── utils/                # Helper functions (misal: capture_screenshot, api utils)
 ├── run_series.py         # Script untuk menjalankan semua test
