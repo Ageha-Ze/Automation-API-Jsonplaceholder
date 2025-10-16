@@ -2,6 +2,10 @@ import os
 import random
 import subprocess
 import time
+from dotenv import load_dotenv  # ✅ Tambahin ini
+
+# Baca variabel dari file .env
+load_dotenv()
 
 # ✅ Pastikan Python pakai UTF-8 biar emoji aman
 os.environ["PYTHONUTF8"] = "1"
